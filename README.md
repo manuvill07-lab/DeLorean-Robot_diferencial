@@ -81,5 +81,13 @@ En este codigo realizado en platformio con framework Arduino, se controlan los m
   5). Ya deberia estar corriendo el launch file, en la terminal es posible ver los datos que se estan enviando por el WiFi transmitter al ESP32, y si el ESP32 sigue conectado al computador, en su monitor serial se pueden ver
   reflejados los comandos tambien. Se puede desconectar el robot diferencial y con el joystick deberia moverse por WiFi.
 
-      
+Proyecto en funcionamiento
+---
+
+https://github.com/user-attachments/assets/88bcc1ab-ae02-4027-befd-f140cc389cc6
+
+https://github.com/user-attachments/assets/3ec41700-bc81-4f12-99fe-9bd598a9c4ae
+
+
+    
         
