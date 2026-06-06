@@ -30,9 +30,12 @@ Ademas, se cuenta con el codigo de **Platformio**, el cual se compila al microco
 En este codigo realizado en platformio con framework Arduino, se controlan los motores a partir de los mensajes que recibe del bridge y al mismo tiempo envia los datos del sensor ultrasonico, en donde ya se ha calculado la distancia 
 
 **Ejecutar el proyecto:**
-  1). Se debe conectar la ESP32 con el computador mediante el microUSB. Se debe compilar el codigo de Platformio primero para obtener la IP del microcontrolador.
+  1). Se debe conectar la ESP32 con el computador mediante el microUSB. Hay que llenar en el setup los siguientes datos de la funcion de WiFi.begin("nombre_red","contraseña") para conectar la ESP32 por WiFi.
+  Se debe compilar el codigo de Platformio primero para obtener la IP del microcontrolador.
+  
       NOTA: Una vez se compile deberia salir el monitor serial en donde muestra la IP una vez se conecte al WiFi, sin embargo a veces el monitor solo muestra ruido. Se debe reiniciar la ESP32 desde la placa para que vuelva
       a intentar conectarse.
+	  
   2). Teniendo la IP se puede reemplazar en el launch file ubicado en el bridge. Se debe poner la IP en el parametro correspondiente del paquete bridge y pub_sensor_us.
       NOTA: Si el launch file no corre (nos sucedio a nosotros al principio), se debe cambiar la IP en los parametros de los dos ejecutables tambien.
   3). Se debe hacer compilar de nuevo el proyecto (colcon build) y activar el workspace en la terminal (source install/setup.bash) porque se acabaron de cambiar datos en el paso 2.
