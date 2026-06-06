@@ -1,0 +1,37 @@
+running egg_info
+creating build/bridge/bridge.egg-info
+writing build/bridge/bridge.egg-info/PKG-INFO
+writing dependency_links to build/bridge/bridge.egg-info/dependency_links.txt
+writing entry points to build/bridge/bridge.egg-info/entry_points.txt
+writing requirements to build/bridge/bridge.egg-info/requires.txt
+writing top-level names to build/bridge/bridge.egg-info/top_level.txt
+writing manifest file 'build/bridge/bridge.egg-info/SOURCES.txt'
+reading manifest file 'build/bridge/bridge.egg-info/SOURCES.txt'
+writing manifest file 'build/bridge/bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build
+creating /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build/lib
+creating /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build/lib/bridge
+copying bridge/wifi_transmitter.py -> /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build/lib/bridge
+copying bridge/__init__.py -> /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build/lib/bridge
+running install
+running install_lib
+creating /home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/python3.12/site-packages/bridge
+copying /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build/lib/bridge/wifi_transmitter.py -> /home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/python3.12/site-packages/bridge
+copying /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build/lib/bridge/__init__.py -> /home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/python3.12/site-packages/bridge
+byte-compiling /home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/python3.12/site-packages/bridge/wifi_transmitter.py to wifi_transmitter.cpython-312.pyc
+byte-compiling /home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/python3.12/site-packages/bridge/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/manuelavillamizar/project_ws/src/bridge/install/bridge/share/ament_index
+creating /home/manuelavillamizar/project_ws/src/bridge/install/bridge/share/ament_index/resource_index
+creating /home/manuelavillamizar/project_ws/src/bridge/install/bridge/share/ament_index/resource_index/packages
+copying resource/bridge -> /home/manuelavillamizar/project_ws/src/bridge/install/bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/manuelavillamizar/project_ws/src/bridge/install/bridge/share/bridge
+creating /home/manuelavillamizar/project_ws/src/bridge/install/bridge/share/bridge/launch
+copying launch/car_launch.py -> /home/manuelavillamizar/project_ws/src/bridge/install/bridge/share/bridge/launch
+running install_egg_info
+Copying build/bridge/bridge.egg-info to /home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/python3.12/site-packages/bridge-0.0.0-py3.12.egg-info
+running install_scripts
+Installing executable_bridge script to /home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/bridge
+writing list of installed files to '/home/manuelavillamizar/project_ws/src/bridge/build/bridge/install.log'

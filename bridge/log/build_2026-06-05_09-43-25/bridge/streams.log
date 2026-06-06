@@ -1,0 +1,39 @@
+[0.722s] Invoking command in '/home/manuelavillamizar/project_ws/src/bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/manuelavillamizar/project_ws/src/bridge/build/bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/bridge build --build-base /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build install --record /home/manuelavillamizar/project_ws/src/bridge/build/bridge/install.log --single-version-externally-managed install_data
+[0.960s] running egg_info
+[0.960s] creating build/bridge/bridge.egg-info
+[0.977s] writing build/bridge/bridge.egg-info/PKG-INFO
+[0.978s] writing dependency_links to build/bridge/bridge.egg-info/dependency_links.txt
+[0.978s] writing entry points to build/bridge/bridge.egg-info/entry_points.txt
+[0.978s] writing requirements to build/bridge/bridge.egg-info/requires.txt
+[0.979s] writing top-level names to build/bridge/bridge.egg-info/top_level.txt
+[0.979s] writing manifest file 'build/bridge/bridge.egg-info/SOURCES.txt'
+[1.007s] reading manifest file 'build/bridge/bridge.egg-info/SOURCES.txt'
+[1.007s] writing manifest file 'build/bridge/bridge.egg-info/SOURCES.txt'
+[1.007s] running build
+[1.008s] running build_py
+[1.008s] creating /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build
+[1.008s] creating /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build/lib
+[1.008s] creating /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build/lib/bridge
+[1.008s] copying bridge/wifi_transmitter.py -> /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build/lib/bridge
+[1.008s] copying bridge/__init__.py -> /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build/lib/bridge
+[1.008s] running install
+[1.013s] running install_lib
+[1.027s] creating /home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/python3.12/site-packages/bridge
+[1.028s] copying /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build/lib/bridge/wifi_transmitter.py -> /home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/python3.12/site-packages/bridge
+[1.028s] copying /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build/lib/bridge/__init__.py -> /home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/python3.12/site-packages/bridge
+[1.028s] byte-compiling /home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/python3.12/site-packages/bridge/wifi_transmitter.py to wifi_transmitter.cpython-312.pyc
+[1.029s] byte-compiling /home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/python3.12/site-packages/bridge/__init__.py to __init__.cpython-312.pyc
+[1.029s] running install_data
+[1.029s] creating /home/manuelavillamizar/project_ws/src/bridge/install/bridge/share/ament_index
+[1.029s] creating /home/manuelavillamizar/project_ws/src/bridge/install/bridge/share/ament_index/resource_index
+[1.029s] creating /home/manuelavillamizar/project_ws/src/bridge/install/bridge/share/ament_index/resource_index/packages
+[1.030s] copying resource/bridge -> /home/manuelavillamizar/project_ws/src/bridge/install/bridge/share/ament_index/resource_index/packages
+[1.030s] copying package.xml -> /home/manuelavillamizar/project_ws/src/bridge/install/bridge/share/bridge
+[1.030s] creating /home/manuelavillamizar/project_ws/src/bridge/install/bridge/share/bridge/launch
+[1.030s] copying launch/car_launch.py -> /home/manuelavillamizar/project_ws/src/bridge/install/bridge/share/bridge/launch
+[1.030s] running install_egg_info
+[1.045s] Copying build/bridge/bridge.egg-info to /home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/python3.12/site-packages/bridge-0.0.0-py3.12.egg-info
+[1.045s] running install_scripts
+[1.151s] Installing executable_bridge script to /home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/bridge
+[1.151s] writing list of installed files to '/home/manuelavillamizar/project_ws/src/bridge/build/bridge/install.log'
+[1.177s] Invoked command in '/home/manuelavillamizar/project_ws/src/bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/manuelavillamizar/project_ws/src/bridge/build/bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manuelavillamizar/project_ws/src/bridge/install/bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/bridge build --build-base /home/manuelavillamizar/project_ws/src/bridge/build/bridge/build install --record /home/manuelavillamizar/project_ws/src/bridge/build/bridge/install.log --single-version-externally-managed install_data
