@@ -34,7 +34,7 @@ def timer_callback():
 
         #Define el comando a enviar al ESP32 dependiendo de la distancia medida por el sensor ultrasonico
         if(distancia_atof < 10.0):
-            objeto_a_la_vista.data = "OBJETO_DETECTADO"
+            objeto_a_la_vista.data = "O"
         else:
             objeto_a_la_vista.data = "VIA_LIBRE"
 

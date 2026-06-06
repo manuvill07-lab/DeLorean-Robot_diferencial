@@ -41,13 +41,13 @@ def cmd_motores_callback(msg):
     wifi_config.sendall(comando_endl.encode('utf-8'))
     node.get_logger().info(f" Enviado a ESP32: {comando}")
 
-def cmd_stop (msg):
+def cmd_stop_callback (msg):
     
     comando = msg.data.strip()
     print(f'Recibido del publicador: {comando}')
 
     #Solo se envian comandos cuando esta cerca a objeto
-    if comando in ["OBJETO_DETECTADO"]:
+    if comando in ["O"]:
         comando_endl = f"{comando}\n"
         #Enviar el comando a ESP32
         wifi_config.sendall(comando_endl.encode('utf-8'))
@@ -62,7 +62,7 @@ def main():
     node = rclpy.create_node('wifi_transmitter')
 
     sub_joy = node.create_subscription(String, 'direccion_joy', cmd_motores_callback, 10)
-    sub_sensor_us = node.create_subscription(String, 'objeto_a_la_vista', cmd_stop, 10)
+    sub_sensor_us = node.create_subscription(String, 'objeto_a_la_vista', cmd_stop_callback, 10)
 
     #Se debe cambiar el valor de la IP y el puerto
     node.declare_parameter('ip', '10.166.109.128')
